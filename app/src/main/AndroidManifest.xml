@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/t"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/t"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaundryIITJ"
+        tools:targetApi="31">
+        <activity
+            android:name=".booking"
+            android:exported="false" />
+        <activity
+            android:name=".Demo_Dhamaka"
+            android:exported="false"
+            android:label="@string/title_activity_demo_dhamaka"
+            android:theme="@style/Theme.LaundryIITJ.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34501457474",
+    "project_id": "laundry-iitj-c510f",
+    "storage_bucket": "laundry-iitj-c510f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34501457474:android:1df355262a0748b192dfdb",
+        "android_client_info": {
+          "package_name": "com.example.laundryiitj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34501457474-k9jms5urfhcc1ki81rhbfn8mo3llb6db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF-ClwR93nXfXHU2hXTjCK_K9_9SZkirY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34501457474-k9jms5urfhcc1ki81rhbfn8mo3llb6db.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
